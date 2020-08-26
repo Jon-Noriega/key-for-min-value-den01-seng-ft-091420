@@ -6,7 +6,7 @@ minimum_value = 250
 minimum_key = ""
 
 name_hash.each do |keye, valu|
-  if valu < minimum_value
+  if valu > minimum_value
     minimum_key = keye
   end
 end

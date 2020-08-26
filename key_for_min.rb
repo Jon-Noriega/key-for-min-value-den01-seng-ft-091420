@@ -7,7 +7,7 @@ minimum_key = ""
 
 name_hash.each do |keye, valu|
   if valu < minimum_value
-    minimum_key = :keye
+    minimum_key = #{keye}
   end
 end
   minimum_key

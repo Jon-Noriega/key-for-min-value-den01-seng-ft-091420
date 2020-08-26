@@ -10,7 +10,6 @@ name_hash.each do |keye, valu|
     minimum_value = valu
     minimum_key = keye
   end
-  nil
 end
-  minimum_key
+  minimum_key or nil
 end

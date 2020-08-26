@@ -9,7 +9,7 @@ name_hash.each do |keye, valu|
   if name_hash == {}
     puts nil
   else
-    valu < minimum_value
+   if valu < minimum_value
     minimum_value = valu
     minimum_key = keye
   end

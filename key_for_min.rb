@@ -9,7 +9,5 @@ name_hash.each do |key, value|
     min = key
   end
 end
-  
-
-
+  min
 end
